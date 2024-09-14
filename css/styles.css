@@ -23,6 +23,14 @@ ul {
 img {
   display: block;
 }
+input {
+  border: 0px;
+  padding: 0px;
+}
+button {
+  padding: 0px;
+  border: 0px;
+}
 .container {
   width: 1158px;
   padding: 0 15px 0 15px;
@@ -412,4 +420,57 @@ img {
 .footer-content {
   display: flex;
   align-items: baseline;
+}
+.footer-email-box {
+  margin-left: 80px;
+}
+.footer-form {
+  display: flex;
+  flex-direction: row;
+}
+.footer-email-label {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+}
+.footer-email-input {
+  margin-top: 16px;
+  width: 264px;
+  height: 40px;
+  padding: 8px 0px 8px 16px;
+  background-color: #2e2f42;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  color: white;
+}
+.footer-email-input::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+.footer-button {
+  cursor: pointer;
+  margin-left: 24px;
+  margin-top: 40px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  padding: 8px, 24px, 8px, 24px;
+  gap: 16px;
+  border-radius: 4px;
+}
+.footer-button-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  align-items: Center;
+  color: #ffffff;
 }
