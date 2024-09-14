@@ -493,7 +493,7 @@
     <div class="modal-overlay is-open">
       <div class="modal">
         <button class="modal-button" type="button">
-          <svg width="8" height="8" class="modal-svg">
+          <svg width="8" height="8" class="modal-svg-exit">
             <use href="./images/icons.svg#cross"></use>
           </svg>
         </button>
@@ -505,10 +505,10 @@
               <input
                 class="modal-input"
                 type="text"
-                name="name"
+                name="user-name"
                 id="user-name"
               />
-              <svg class="modal-svg" width="14" height="14">
+              <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#person"></use>
               </svg>
             </div>
@@ -517,7 +517,7 @@
             <label class="modal-label" for="phone"> Phone</label>
             <div class="modal-label-div">
               <input class="modal-input" type="tel" name="phone" id="phone" />
-              <svg class="modal-svg" width="14" height="14">
+              <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
             </div>
@@ -527,20 +527,21 @@
             <label class="modal-label" for="email"> Email</label>
             <div class="modal-label-div">
               <input class="modal-input" type="email" name="email" id="email" />
-              <svg class="modal-svg" width="14" height="14">
+              <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#email"></use>
               </svg>
             </div>
           </div>
           <div class="modal-form-div">
-            <label class="modal-label" for="comment"> Comment</label>
+            <label class="modal-label" for="user-comment"> Comment</label>
             <textarea
               class="modal-input modal-input-textarea"
               placeholder="Text input"
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
             ></textarea>
           </div>
+          <div class="modal-form-div-checkbox"></div>
           <label class="modal-label-checkbox" for="checkbox"
             ><input
               class="modal-input-checkbox"

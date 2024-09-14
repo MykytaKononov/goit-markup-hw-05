@@ -565,9 +565,12 @@ button {
   position: relative;
 }
 .modal-input {
+  display: block;
   margin-bottom: 8px;
   width: 100%;
   height: 40px;
+  background-color: transparent;
+  outline: transparent;
   border: 1px solid #2e2f4266;
   border-radius: 4px;
   padding: 11px 0 11px 38px;
@@ -575,10 +578,20 @@ button {
 }
 
 .modal-input-textarea {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
   height: 120px;
-  padding-top: 8px;
-  padding-left: 16px;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-div-checkbox {
+  margin-bottom: 24px;
 }
 .modal-label-checkbox {
   display: flex;
@@ -620,10 +633,20 @@ button {
 .modal-send-button:hover {
   background-color: #4550d1;
 }
+.modal-svg-exit {
+  position: absolute;
+  fill: #2e2f42;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-svg {
   position: absolute;
   fill: #2e2f42;
 
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover .modal-svg,
@@ -635,7 +658,6 @@ button {
 }
 
 .modal-input:focus,
-.modal-input-textarea {
+.modal-input-textarea:hover {
   border-color: #4d5ae5;
-  outline: none;
 }
