@@ -462,9 +462,11 @@ button {
   width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-  padding: 8px, 24px, 8px, 24px;
+  padding: 8px 24px 8px 24px;
   gap: 16px;
   border-radius: 4px;
+  display: flex;
+  flex-direction: row;
 }
 .footer-button-p {
   font-weight: 500;
