@@ -471,11 +471,12 @@
         </div>
         <div class="footer-email-box">
           <form class="footer-form">
-            <label class="footer-email-label" name="email-label"
-              >Subscribe
+            <label class="footer-email-label" for="email-box"
+              ><p class="footer-subscribe">Subscribe</p>
               <input
                 class="footer-email-input"
                 name="email-box"
+                id="email-box"
                 type="email"
                 placeholder="E-mail"
             /></label>
@@ -500,52 +501,54 @@
             <use href="./images/icons.svg#cross"></use>
           </svg>
         </button>
-        <h2 class="modal-h2">Leave your contacts and we will call you back</h2>
+        <p class="modal-h2">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label class="modal-label" for="name">
-            Name
-            <input class="modal-input" type="text" name="name" id="name" />
-            <svg class="modal-svg" width="14" height="14">
-              <use href="./images/icons.svg#person"></use>
-            </svg>
-          </label>
-          <label class="modal-label" for="phone">
-            Phone
-            <input class="modal-input" type="tel" name="phone" id="phone" />
-            <svg class="modal-svg" width="14" height="14">
-              <use href="./images/icons.svg#phone"></use>
-            </svg>
-          </label>
-          <label class="modal-label" for="email">
-            Email
-            <input class="modal-input" type="email" name="email" id="email" />
-            <svg class="modal-svg" width="14" height="14">
-              <use href="./images/icons.svg#email"></use>
-            </svg>
-          </label>
-          <label class="modal-label" for="comment">
-            Comment
-            <textarea
-              class="modal-input modal-input-textarea"
-              placeholder="Text input"
-              name="comment"
-              id="comment"
-            >
-            </textarea>
-          </label>
-          <label class="modal-label-checkbox" for="checkbox"
-            ><input
-              class="modal-input-checkbox"
-              type="checkbox"
-              name="checkbox"
-              id="checkbox"
-            />
-            <p class="modal-checkbox-p">
-              I accept the terms and conditions of the
-              <a href="/" class="modal-checkbox-link">Privacy Policy</a>
-            </p>
-          </label>
-          <button class="modal-send-button" type="button">Send</button>
+          <div class="modal-form-div">
+            <label class="modal-label" for="name">
+              Name
+              <input class="modal-input" type="text" name="name" id="name" />
+              <svg class="modal-svg" width="14" height="14">
+                <use href="./images/icons.svg#person"></use>
+              </svg>
+            </label>
+            <label class="modal-label" for="phone">
+              Phone
+              <input class="modal-input" type="tel" name="phone" id="phone" />
+              <svg class="modal-svg" width="14" height="14">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </label>
+            <label class="modal-label" for="email">
+              Email
+              <input class="modal-input" type="email" name="email" id="email" />
+              <svg class="modal-svg" width="14" height="14">
+                <use href="./images/icons.svg#email"></use>
+              </svg>
+            </label>
+            <label class="modal-label" for="comment">
+              Comment
+              <textarea
+                class="modal-input modal-input-textarea"
+                placeholder="Text input"
+                name="comment"
+                id="comment"
+              >
+              </textarea>
+            </label>
+            <label class="modal-label-checkbox" for="checkbox"
+              ><input
+                class="modal-input-checkbox"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+              />
+              <p class="modal-checkbox-p">
+                I accept the terms and conditions of the
+                <a href="/" class="modal-checkbox-link">Privacy Policy</a>
+              </p>
+            </label>
+            <button class="modal-send-button" type="button">Send</button>
+          </div>
         </form>
       </div>
     </div>
