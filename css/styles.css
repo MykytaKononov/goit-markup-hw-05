@@ -640,7 +640,7 @@ button {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   margin: 0px 95px;
   cursor: pointer;
@@ -662,7 +662,6 @@ button {
 .modal-svg {
   position: absolute;
   fill: #2e2f42;
-
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
@@ -692,7 +691,7 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.modal-input-checkbox:checked + span {
+.modal-input-checkbox:checked + .modal-label-checkbox > .modal-label-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
