@@ -541,19 +541,23 @@
               id="user-comment"
             ></textarea>
           </div>
-          <div class="modal-form-div-checkbox"></div>
-          <label class="modal-label-checkbox" for="checkbox"
-            ><input
-              class="modal-input-checkbox"
+          <div class="modal-form-div-checkbox">
+            <input
+              class="modal-input-checkbox visually-hidden"
               type="checkbox"
-              name="checkbox"
-              id="checkbox"
+              name="user-privacy"
+              id="user-privacy"
             />
-            <p class="modal-checkbox-p">
+            <label class="modal-label-checkbox" for="user-privacy">
+              <span class="modal-label-span"
+                ><svg weight="10" height="8" class="modal-span-svg">
+                  <use href="./images/icons.svg#vector"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a href="/" class="modal-checkbox-link">Privacy Policy</a>
-            </p>
-          </label>
+              <a class="modal-checkbox-link">Privacy Policy</a>
+            </label>
+          </div>
           <button class="modal-send-button" type="button">Send</button>
         </form>
       </div>
